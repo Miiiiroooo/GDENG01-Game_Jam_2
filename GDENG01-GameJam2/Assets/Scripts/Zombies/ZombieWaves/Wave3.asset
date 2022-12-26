@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da98586047c6a3a4b9843646ea0887cd, type: 3}
+  m_Name: Wave3
+  m_EditorClassIdentifier: 
+  waveName: Wave 3
+  elapsedWaveTime: 0
+  waveDuration: 90
+  restDuration: 7
+  miniWaveList:
+  - spawnType: 1
+    zombieType: 2
+    spawnCount: 1
+    spawnTicks: 12
+    startSpawnTimeInPercentage: 0.02
+    endSpawnTimeInPercentage: 0.5
+    elapsedSpawnTime: 100
+    isSingleBurstDone: 0
+  - spawnType: 1
+    zombieType: 1
+    spawnCount: 2
+    spawnTicks: 10
+    startSpawnTimeInPercentage: 0.3
+    endSpawnTimeInPercentage: 0.7
+    elapsedSpawnTime: 100
+    isSingleBurstDone: 0
+  - spawnType: 1
+    zombieType: 1
+    spawnCount: 3
+    spawnTicks: 12
+    startSpawnTimeInPercentage: 0.65
+    endSpawnTimeInPercentage: 0.95
+    elapsedSpawnTime: 100
+    isSingleBurstDone: 0

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2114364e982c55a499103ddf0a9ed49c, type: 3}
+  m_Name: ShotgunDog
+  m_EditorClassIdentifier: 
+  dogName: ShotgunDog
+  dogImage: {fileID: 21300000, guid: c5deb3931239045499bb2fbe6110022e, type: 3}
+  attackSound: {fileID: 8300000, guid: 04767bbb122633b44992ff9de1f52271, type: 3}
+  cost: 200
+  attackCooldown: 6
+  attackDamage: 8
+  attackSpeed: 1
+  attackUpgradeCost: 50
+  attackSpeedUpgradeCost: 50
+  range: 6
